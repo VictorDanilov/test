@@ -1,6 +1,3 @@
 language: node_js
 node_js: "8"
-jobs:
-  include:
-    stage: test
-    script: yarn test
+script: yarn test
